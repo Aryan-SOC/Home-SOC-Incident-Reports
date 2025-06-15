@@ -3,8 +3,15 @@
 # This script simulates the creation of a rootkit file for detection purposes.
 # In a real scenario, this would be a malicious payload.
 
-ROOTKIT_FILE="$HOME/rootkit.txt" # <--- THIS LINE IS CHANGED
-LOG_FILE="/tmp/rootkit_install.log"
+ROOTKIT_FILE="$HOME/rootkit.txt"
+
+# --- NEW LINES FOR LOGGING ---
+LOG_DIR="$HOME/logs" # Define the new log directory
+LOG_FILE="$LOG_DIR/rootkit_install.log" # Update log file path
+
+# Ensure the log directory exists before writing to it
+mkdir -p "$LOG_DIR"
+# --- END NEW LINES ---
 
 echo "--- Rootkit Simulation Script Started ---" > "$LOG_FILE"
 echo "Timestamp: $(date)" >> "$LOG_FILE"
