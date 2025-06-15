@@ -23,24 +23,6 @@ My goal: Develop world-class incident response habits through continuous, struct
 - **Kali Linux** – For attack simulation, red teaming, and adversary emulation
 - **GCP + VirtualBox** – Hybrid cloud/on-prem deployment for real-world scenarios
 
----
-
-## 📁 How This Repo Is Organized
-
-```
-/investigations
-    ├── nmap_scan_detection.md
-    ├── suspicious_powershell_activity.md
-    ├── suspicious_file_creation.md
-    ├── brute_force_login_attempts.md
-    ├── malicious_outbound_connection.md
-    ├── unauthorized_admin_access.md
-    ├── ransomware_behavior_detected.md
-    ├── unusual_dns_queries.md
-    ├── privilege_escalation_attempt.md
-    └── persistence_mechanism_detected.md
-     
-```
 
 ---
 
